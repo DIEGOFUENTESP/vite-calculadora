@@ -1,0 +1,59 @@
+.calculator {
+  max-width: 400px;
+  margin: 5% auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: black;
+}
+
+.display {
+  width: 93%;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid #666; /* Borde del display */
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del display */
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.green {
+  background-color: #28a745; /* Verde */
+  color: #fff;
+}
+
+.red {
+  background-color: #e74c3c; /* Rojo */
+  color: #fff;
+}
+
+body.dark-theme {
+  /* Define estilos para el tema oscuro */
+  background-color: #1f1f1f;
+  color: #ffffff;
+  /* ... Otros estilos ... */
+}
+
+/* Estilos para tema claro a nivel global */
+body.light-theme {
+  /* Define estilos para el tema claro */
+  background-color: #ffffff;
+  color: #333333;
+  /* ... Otros estilos ... */
+}
